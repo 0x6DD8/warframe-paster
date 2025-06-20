@@ -61,7 +61,7 @@ make uninstall-linux
 
 ## Configuration
 
-You can modify the following constants in [warframa-paster.go](warframa-paster.go):
+You can modify the following constants in [warframe-paster.go](warframe-paster.go):
 
 - `PASTE_SHORTCUT`: Change the keyboard shortcut (default: `["alt", "v"]`)
 - `PASTE_CONTENT_LIMIT`: Maximum characters to paste (default: `300`)
