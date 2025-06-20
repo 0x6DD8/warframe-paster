@@ -21,7 +21,7 @@ func main() {
 		panic(err)
 	}
 
-	hook.Register(hook.KeyUp, PASTE_SHORTCUT, func(e hook.Event) {
+	hook.Register(hook.KeyDown, PASTE_SHORTCUT, func(e hook.Event) {
 		var content = getClipboardContent()
 
 		if content == "" {
